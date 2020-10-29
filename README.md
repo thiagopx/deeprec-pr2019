@@ -1,4 +1,4 @@
-### Fast(er) Reconstruction of Shredded Text Documents via Self-Supervised Deep Asymmetric Metric Learning
+### Self-supervised deep reconstruction of mixed strip-shredded text documents
 
 ![Overview](github/image.png)
 
