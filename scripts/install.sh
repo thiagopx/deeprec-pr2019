@@ -15,7 +15,7 @@ mkdir -p $ENV_DIR
 sudo apt update
 sudo apt install python3.$PYTHON_VERSION-dev python3.$PYTHON_VERSION-tk python3-pip curl -y
 sudo pip3 install -U virtualenv
-virtualenv --system-site-packages -p python3.$PYTHON_VERSION ~/envs/$JOURNAL
+virtualenv -p python3.$PYTHON_VERSION $BASE_DIR/envs/$PROJECT
 
 echo -e "${ORANGE}2) Installing Concorde${NC}"
 
